@@ -6,8 +6,8 @@ pub struct Position {
     pub col: Range<usize>,
 }
 pub struct Located<T> {
-    value: T,
-    pos: Position
+    pub value: T,
+    pub pos: Position
 }
 
 impl Position {

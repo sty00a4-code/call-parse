@@ -2,6 +2,9 @@
 mod tests;
 pub mod position;
 pub mod lexer;
+pub mod parser;
+pub mod ir;
+pub mod compiler;
 
 pub trait Switch {
     type Item;
